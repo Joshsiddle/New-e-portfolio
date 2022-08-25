@@ -181,6 +181,10 @@ nav,
    Landing page
 */
 
+.header__content {
+    height: calc(100vh - 200px);
+}
+
 #landing-page {
     min-height: 100vh;
 }
@@ -320,7 +324,7 @@ nav {
     transform: translate(-50%, -50%);
     width: 90%;
     max-width: 1100px;
-    height: 700px;
+    height: 600px;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
